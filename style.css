@@ -1,0 +1,59 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir;
+    font-weight: 300;
+}
+
+
+#sideBar {
+    height: 100%;
+}
+
+#sideBar.collapsing {
+    height: 0;
+}
+
+@media (min-width : 768px) {
+    #sideBar {
+        height: calc(100vh - 62px) !important;
+        position: fixed;
+    }
+    #sideBar.collapse {
+        transform: translate(100%, 0);
+        transition: transform .3s linear; 
+        
+    }
+    #sideBar.collapse.show {
+        transform: translate(0, 0);
+        
+    }
+
+    #sideBar.collapsing {
+        transform: translate(100%, 0);
+        transition: transform .3s linear; 
+    }
+}
+
+#sideBar .nav-link {
+    color: #f8f9fa;
+}
+
+
+
+#sideBar .bi-arrow-left-short {
+    transform: rotate(-90deg);
+}
+
+#sideBar .bi {
+    transition: .3s transform ease-in-out;
+}
+#sideBar .collapsed .bi-arrow-left-short {
+    transform: rotate(0deg);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
