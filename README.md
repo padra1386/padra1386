@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @padra1386
 - 👀 I’m interested in Programming
-- 🌱 I’m currently learning React and Database
+- 🌱 I’m currently learning advanced django
 
 <!---
 padra1386/padra1386 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
